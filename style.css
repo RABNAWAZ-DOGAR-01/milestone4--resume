@@ -1,0 +1,186 @@
+body{
+    margin: 20px;
+    padding: 0;
+    background-color:#455065 ;
+    box-sizing: border-box;
+    
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+    
+    @font-face{
+    src: url(./Race\ Champion.ttf);
+    font-family: "rabnawaz";
+    }
+    @font-face{
+       src: url(../milestone1/MADE\ Tommy\ Soft\ Black\ PERSONAL\ USE.otf);
+       font-family: "tommy";
+    }
+    h1{
+       width: 1200px;
+        text-align: center;
+       color: #ffe600;
+        font-family: "rabnawaz";
+        font-weight: 600;
+        text-shadow: -7px 4px 5px rgba(0,0,0,0.85);
+      
+    
+    }
+    
+    
+    form{
+        text-shadow: 0px 0px 6px rgb(81, 81, 82);
+        font-weight: 600;
+        padding: 50px;
+        max-width: 500px;
+        margin-left: 285px;
+        background-color:#455065;
+        border-radius: 8px;
+        box-shadow: 7px 7px 17px #3b4456,
+                     -7px -7px 17px #4f5c74;
+        border: 0.5px solid #313b4e; 
+    }
+    legend.one{
+        color: #4338e6;
+        font-family: "tommy";
+        font-size: 30px;
+     word-spacing: 1px;
+     text-transform: capitalize;
+    }
+    
+    fieldset{
+        border: 2px solid #3204ff;
+        padding: 20px;
+       margin-bottom: 10px;
+       background-color:#566974;                /*#acb7bd */
+       font-size: 15px;
+       border-radius: 10px;
+      
+    }
+    
+    legend{
+        font-family: "rabnawaz";
+        font-weight: bold;
+        font-weight: 600;
+        text-align: left;
+        color: rgb(71, 59, 247);
+        font-size: 20px;
+        text-shadow: -3px -3px 5px rgba(0,0,0,1);
+    }
+    
+    label{
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        display: block;
+        margin-top: 10px;
+        color: #e5ff00;
+        font-size: 20px;
+       font: bold;
+       text-shadow: -2px -3px 15px rgba(0, 0, 0, 0.84);
+       font-style: italic;
+    }
+    
+    input,textarea {
+        width:calc(100% - 1px);
+        padding: 5px;
+         margin-top: 4px;
+         border: 3px solid rgb(0, 89, 255);
+         border-radius: 10px;
+         box-sizing: border-box;
+    }
+    
+    input,textarea:hover {
+       border: yellow;
+    }
+
+    
+    button{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color:#656483;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(55, 0, 253);
+        font-family: "rabnawaz";
+        flex-shrink: 3;
+    }
+    
+    button:hover{
+        box-shadow: 0px 0px 10px 4px rgba(237,237,237,1);
+    }
+
+
+   #resumeOutput {
+    text-shadow: 0px 0px 6px rgb(81, 81, 82);
+        font-weight: 600;
+        padding: 50px;
+        max-width: 500px;
+        margin-left: 285px;
+        background-color:#455065;
+        border-radius: 8px;
+        box-shadow: 7px 7px 17px #3b4456,
+                     -7px -7px 17px #4f5c74;
+        border: 0.5px solid #313b4e; 
+
+   }
+
+  
+
+  p strong{
+    letter-spacing: 1px;
+  padding: 2px;
+  font-family: "rabnawaz";
+        font-weight: bold;
+        font-weight: 600;
+        text-align: left;
+        color: rgb(71, 59, 247);
+        font-size: 20px;
+        text-shadow: -3px -3px 5px rgba(0,0,0,1);
+  
+  }
+
+  h3{
+    letter-spacing: 1px;
+    font-family: "rabnawaz";
+    font-weight: bold;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(71, 59, 247);
+    font-size: 20px;
+    text-shadow: -3px -3px 5px rgba(0,0,0,1);
+  }
+
+
+  p {
+    letter-spacing: 1px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    display: block;
+    margin-top: 10px;
+    color: #e5ff00;
+    font-size: 20px;
+   font: bold;
+   text-shadow: -2px -3px 15px rgba(0, 0, 0, 0.84);
+   font-style: italic;
+   text-shadow: 9px -5px 5px #000000;
+  }
+  
+
+.profilepicture {
+    display: block;
+    margin: 0,auto;
+    border: 2px solid ;
+    box-shadow: 0 4px 8px;
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
